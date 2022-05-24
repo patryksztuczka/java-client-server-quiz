@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="231.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.client.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="24.0" prefWidth="235.0" text="Your nick:">
+         <graphic>
+            <TextField fx:id="tf_nick" prefWidth="140.0" />
+         </graphic>
+         <font>
+            <Font name="Fira Code Regular" size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="25.0" prefWidth="318.0" text="Your answer:">
+         <graphic>
+            <TextField fx:id="tf_answer" prefHeight="25.0" prefWidth="140.0" />
+         </graphic>
+         <font>
+            <Font name="Fira Code Regular" size="10.0" />
+         </font></Label>
+      <Button fx:id="button_send" mnemonicParsing="false" prefHeight="77.0" prefWidth="194.0" text="Send answer">
+         <font>
+            <Font name="Fira Code Regular" size="16.0" />
+         </font></Button>
+   </children>
+</VBox>
